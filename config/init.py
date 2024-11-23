@@ -1,7 +1,5 @@
+# This file is for running whatever initialization is needed, e.g. database setup, etc.
 
 import runpy
-from dotenv import dotenv_values
 
-ENV = dotenv_values(".env.local")
-
-runpy.run_module("config/init.py")
+runpy.run_module("config/database.py")

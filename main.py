@@ -1,3 +1,5 @@
+# This file is the main module which runs init to set everything up, and then boots the server, etc.
+
 import runpy
 
 from starlite import Starlite

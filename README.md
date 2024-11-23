@@ -19,14 +19,16 @@ pip install -r requirements.txt
 ```
 
 #### Database
-. . . install Postgres . . .
-(or a different db, but you'll have to configure the Alembic and SQLAlchemy setup in config/database.py)
+. . . install Postgres . . . (or a different db, but you'll have to configure the Alembic and SQLAlchemy setup in config/database.py)
+
+. . . Run migrations . . . (still setting up Alembic and SQLAlchemy)
 
 #### dotenv
 create a `.env.local` file for storing sensitive information, currently the keys to fill in are (replace fake values with your values)
 ```
 DB_USERNAME=fakeusername
 DB_PASSWORD=fakepassword123
+DB_DATABASENAME=hedgehogdb
 
 ```
 
