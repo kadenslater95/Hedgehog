@@ -32,6 +32,7 @@ DB_PASSWORD=fakepassword123
 
 ---
 
+Not ready to run yet.
 Run with
 ```
 uvicorn main:app --reload
