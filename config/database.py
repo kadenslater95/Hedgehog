@@ -2,7 +2,7 @@
 
 from sqlalchemy import create_engine
 
-from config.settings import ENV
+from config.settings import SQL_ALCHEMY_URL
 
 # Default setup is a postgresql database using asyncpg as the driver
-engine = create_engine(f"postgresql+asyncpg://{ENV['DB_USERNAME']}:{ENV['DB_PASSWORD']}@localhost:5432/{ENV['DB_DATABASENAME']}")
+engine = create_engine(SQL_ALCHEMY_URL)
